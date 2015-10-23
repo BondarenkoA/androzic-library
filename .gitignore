@@ -1,3 +1,6 @@
+.gradle
+.idea
+AndrozicLibrary/build
 bin/
 gen/
 obj/
