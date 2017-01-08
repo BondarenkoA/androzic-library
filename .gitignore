@@ -1,7 +1,5 @@
+app/build
+build
 .gradle
 .idea
-AndrozicLibrary/build
-bin/
-gen/
-obj/
 local.properties

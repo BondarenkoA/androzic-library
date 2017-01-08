@@ -10,8 +10,6 @@ so manually move them:
 * .gitignore
 * LICENSE.txt
 * README.md
-* androzic-library.iml
-* ant.properties
 * build.xml
 * proguard-project.txt
 
@@ -20,15 +18,14 @@ Moved Files:
 Android Gradle projects use a different directory structure than ADT
 Eclipse projects. Here's how the projects were restructured:
 
-* AndroidManifest.xml => AndrozicLibrary\src\main\AndroidManifest.xml
-* assets\ => AndrozicLibrary\src\main\assets
-* libs\Jama-1.0.2.jar => AndrozicLibrary\libs\Jama-1.0.2.jar
-* res\ => AndrozicLibrary\src\main\res\
-* src\ => AndrozicLibrary\src\main\java\
-* src\com\androzic\location\ILocationCallback.aidl => AndrozicLibrary\src\main\aidl\com\androzic\location\ILocationCallback.aidl
-* src\com\androzic\location\ILocationRemoteService.aidl => AndrozicLibrary\src\main\aidl\com\androzic\location\ILocationRemoteService.aidl
-* src\com\androzic\location\ITrackingCallback.aidl => AndrozicLibrary\src\main\aidl\com\androzic\location\ITrackingCallback.aidl
-* src\com\androzic\location\ITrackingRemoteService.aidl => AndrozicLibrary\src\main\aidl\com\androzic\location\ITrackingRemoteService.aidl
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* libs\Jama-1.0.2.jar => app\libs\Jama-1.0.2.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* src\com\androzic\location\ILocationCallback.aidl => app\src\main\aidl\com\androzic\location\ILocationCallback.aidl
+* src\com\androzic\location\ILocationRemoteService.aidl => app\src\main\aidl\com\androzic\location\ILocationRemoteService.aidl
+* src\com\androzic\location\ITrackingCallback.aidl => app\src\main\aidl\com\androzic\location\ITrackingCallback.aidl
+* src\com\androzic\location\ITrackingRemoteService.aidl => app\src\main\aidl\com\androzic\location\ITrackingRemoteService.aidl
 
 Next Steps:
 -----------
